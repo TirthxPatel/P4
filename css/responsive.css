@@ -1,0 +1,126 @@
+@media(min-width:1201px) and (max-width:1600px){
+	
+}
+
+@media(min-width:1025px) and (max-width:1200px){
+	
+}
+
+@media(min-width:992px) and (max-width:1024px){
+	
+}
+
+@media(min-width:768px) and (max-width:991px){
+	.navbar-light .navbar-nav{margin-left: 20px;}
+	.navbar-light .navbar-nav li{margin-right: 15px;}
+	.searchbox{max-width: 250px;}
+	.enter-site ul li a,.searchbox .form-control{font-size: 14px;}
+	.enter-site ul li{margin-right: 15px;}
+
+	.hero-banner{padding: 40px 0 0;}
+	.hero-banner h1{font-size: 42px;margin: 0 auto 10px;}
+	.hero-banner p{font-size: 18px;}
+
+	.cart-wrp{padding: 40px 0;}
+	.cart-wrp h2{font-size: 26px;margin: 0 0 10px;}
+	.cart-wrp h6{font-size: 14px;}
+	.cart-wrp h3{font-size: 16px;margin: 0 0 10px;}
+	.cart-block{padding: 0 0 35px;}
+	.cart-data h4{font-size: 18px;}
+	.cart-img{min-width: 100px;}
+	.cart-img img{width: 100px;height: 100px;}
+	.cart-sidebar{padding: 40px 0 0;}
+
+	.new-arrival-row{margin: 0;}
+	.new-arrival-row .row{margin: 0 -15px;}
+	.new-arrival-row .row .col-md-4{padding: 0 15px;}
+	.arrivals-box{padding: 0;margin: 0px;}
+
+	.products-detaile-wrp{padding: 40px 0;}
+	.products-img-row .col-md-6{width: 50%;}
+	.products-detaile-block h2{font-size: 22px;}
+	.addcartbtn a img{width: 20px;}
+	.products-detaile-block h4 span{font-size: 10px;}
+	.products-detaile-block p{font-size: 15px;line-height: 22px;}
+	.choice-box h5{font-size: 16px;}
+	.choice-box ul li .colorbx img{width: 40px;height: 40px;margin: 0 auto;}
+	.choice-box ul li .sizebox{width: 45px;height: 45px;line-height: 43px;font-size: 15px;}
+	.qty-input .product-qty, .qty-input .qty-count{height: 40px;}
+	.action-bar .btn-main{padding: 10px 15px;font-size: 15px;}
+
+	.inner-banner{min-height: auto;}
+	.inner-banner h1{font-size: 26px;}
+	.inner-banner p{font-size: 15px;}
+	.shop-list-wrp .col-sm-6{width: 50%;}
+	.shop-list-wrp .col-md-3{width: 33.33%;}
+}
+
+@media(min-width:576px) and (max-width:767px){
+	
+}
+
+@media(min-width:448px) and (max-width:575px){
+	
+}
+
+@media(max-width:767px){
+	.nav-row{flex-flow: column;}
+	.navbar-light .navbar-nav{margin: 0;width: 100%;}
+	.searchbox{display: none;}
+	.searchbox.mobilesearch{display: flex;margin: 0;max-width: 100%;border: 1px solid #e0e0e0;width: 100%;padding: 5px 10px;position: fixed;top:60px;left: 0;right: 0;z-index: 999;background: #fff;opacity: 0;visibility: hidden;}
+	.searchbox.mobilesearch.show-sidebar{opacity: 1;visibility: visible;}
+	.enter-site{margin: 15px auto 0;}
+	.navbar-light .navbar-nav li{margin: 0;}
+	.navbar-light .navbar-nav .nav-link{font-size: 15px;display: flex;align-items: center;}
+	.navbar-light .navbar-nav .nav-link i{margin-left: auto;}
+	.mobile-show{margin-left: auto;margin-right: 10px;}
+	.mobile-show ul{display: flex;;}
+	a.searchbtn.show-sidebar i:before{content: "\f00d";}
+	.enter-site li:first-child{display: none;}
+
+	.hero-banner{padding: 40px 0 0;}
+	.hero-banner h1{font-size: 26px;}
+	.hero-banner p{font-size: 16px;line-height: 24px;}
+	.btn-main{padding: 10px 15px;font-size: 15px;}
+
+	footer img{height: 50px}
+	footer p{font-size: 12px;}
+
+	.about-wrp{padding: 40px 0;}
+	.about-wrp h1{font-size: 28px;}
+
+
+	.cart-wrp{padding: 40px 0;}
+	.cart-wrp h2{font-size: 26px;margin: 0 0 10px;}
+	.cart-wrp h6{font-size: 14px;}
+	.cart-wrp h3{font-size: 16px;margin: 0 0 10px;}
+	.cart-block{padding: 0 0 35px;}
+	.cart-data h4{font-size: 18px;}
+	.cart-img{min-width: 100px;}
+	.cart-img img{width: 100px;height: 100px;}
+	.cart-sidebar{padding: 40px 0 0;}
+
+	.new-arrival-row{margin: 0;}
+	.new-arrival-row .row{margin: 0 -15px;}
+	.new-arrival-row .row .col-md-4{padding: 0 15px;}
+	.arrivals-box{padding: 0;margin: 0 0 30px;}
+
+	.products-detaile-wrp{padding: 40px 0;}
+	.products-img-row .col-md-6{width: 50%;}
+	.products-detaile-block h2{font-size: 22px;}
+	.addcartbtn a img{width: 20px;}
+	.products-detaile-block h4 span{font-size: 10px;}
+	.products-detaile-block p{font-size: 15px;line-height: 22px;}
+	.choice-box h5{font-size: 16px;}
+	.choice-box ul li .colorbx img{width: 40px;height: 40px;margin: 0 auto;}
+	.choice-box ul li .sizebox{width: 45px;height: 45px;line-height: 43px;font-size: 15px;}
+	.qty-input .product-qty, .qty-input .qty-count{height: 40px;}
+
+	.inner-banner{min-height: auto;}
+	.inner-banner h1{font-size: 26px;}
+	.inner-banner p{font-size: 15px;}
+
+	.filter-rw{margin: 0 0 15px;}
+	.filter-rw ul{justify-content: center;}
+	.filter-rw ul li a{font-size: 12px;padding:5px 10px;min-width: auto;}	
+}
